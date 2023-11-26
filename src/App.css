@@ -27,6 +27,44 @@
 .App-link {
   color: #61dafb;
 }
+/* App.css */
+
+/* Add any global styles or reset styles if needed */
+
+body {
+  background-color: #f0f0f0; /* Set the background color for the entire page */
+}
+
+.table-container {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #fff; /* Set the background color for the table container */
+  border-radius: 8px; /* Optional: Add border-radius for a rounded appearance */
+  overflow: hidden; /* Optional: Hide overflowing content */
+}
+
+.table-style {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.th-td-style {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.th-style {
+  background-color: #333; /* Set the background color for the table head */
+  color: #fff; /* Set the text color for the table head */
+}
+
+.td-style {
+  background-color: #f9f9f9; /* Set the background color for the table body */
+}
+
+/* Add more styles as needed */
+
 
 @keyframes App-logo-spin {
   from {
